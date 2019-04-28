@@ -1,0 +1,371 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial black;
+}
+
+.main-header {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Website/6.jpg);
+	height: 95vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.logo img{
+	float: left;
+	width: 50vh;
+	height: auto;
+}
+
+.menu {
+	max-width: 500vh;
+	margin: auto;
+}
+
+.title {
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+
+}
+
+.title h1 {
+	color: white;
+	font-size: 17.5vh;
+	font-family: century gothic;
+}
+
+.title p {
+	color: white;
+	font-size: 3.5vh;
+	font-family: KaiTi;
+	position: absolute;
+	top: 75%;
+	left: 2%;
+}
+
+.button {
+	position: absolute;
+	top: 75%;
+	left: 17%;
+	transform: translate(-50%,-50%);
+	font-size: 3.5vh;
+}
+
+.btn {
+	border: 0.3vh solid white;
+	padding: 2vh 6vh;
+	color: white;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover {
+	background: white;
+	color: black;
+}
+
+
+
+
+
+.showcase {
+	height: 125vh;
+	padding: 9vh 22vh 0 22vh;
+	background: black;
+}
+
+h5 {
+	text-align: center;
+	color: white;
+	font-family: arial;
+	padding: 2.5vh;
+	margin-top: 0;
+	font-size: 2.5vh;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	font-family: KaiTi;
+	margin-top: 2.5vh;
+	font-size: 5vh;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: arial black;
+	margin-bottom: 5vh;
+	font-size: 7vh;
+}
+
+.grid {
+	display: grid;
+	height: 50vh;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+.article1 {
+	height: 50vh;
+	width: 55vh;
+	background-image: url(../Website/5.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.article2 {
+	width: 55vh;
+	background-image: url(../Website/10.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.article3 {
+	width: 55vh;;
+	border: 0.3vh white solid;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Website/4.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.article4 {
+	border: 2.5vh black solid;
+	height: 35vh;
+	width: 50vh;
+	color: white;
+	font-size: 3vh;
+	text-align: justify;
+}
+
+.article4 h4 {
+	color: white;
+	text-align: left;
+}
+
+.article4 p {
+	font-family: kaiTi;
+	color: white;
+	padding: 0 0 2.5vh 0;
+}
+
+.article5 {
+	border: 2.5vh black solid;
+	height: 35vh;
+	width: 50vh;
+	color: white;
+	font-size: 3vh;
+	text-align: justify;
+}
+
+.article5 h4 {
+	color: white;
+	text-align: left;
+}
+
+.article5 p {
+	font-family: kaiTi;
+	color: white;
+}
+
+.article6 {
+	border: 2.5vh black solid;
+	height: 35vh;
+	width: 50vh;
+	color: white;
+	font-size: 3vh;
+	text-align: justify;
+}
+
+.article6 p {
+	padding: 3vh 0 0 0;
+	font-family: kaiTi;
+	color: white;
+}
+
+.j {
+	padding: 1vh 1.5vh;
+	margin: 0;
+	color: white;
+	text-decoration: none;
+	transition: 0.6s ease;
+	font-family: kaiTi;
+	font-style: italic;
+	border: 0.1vh white solid;
+	font-size: 3vh;
+}
+
+.j:hover {
+	background: white;
+	color: black;
+}
+
+
+
+
+
+.main-article {
+	background: black;
+}
+
+.grid2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 50vh;
+	padding: 0 10vh 10vh;
+}
+
+.espresso {
+	height: 55vh;
+	background: #3B270C;
+	color: white;
+	font-size: 3vh;
+	text-align: justify;
+}
+
+.espresso h2 {
+	padding: 0 0 1vh 0;
+	font-size: 10vh;
+	font-family: 'Satisfy', cursive;
+}
+
+.espresso p {
+	color: white;
+	font-family: kaiTi;
+	padding: 3vh;
+	line-height: 5vh;
+}
+
+.desserts {
+	height: 55vh;
+	background: #492000;
+	color: white;
+	font-size: 3vh;
+	text-align: justify;
+}
+
+.desserts h2 {
+	padding: 0 0 1vh 0;
+	font-size: 10vh;
+	font-family: 'Satisfy', cursive;
+}
+
+.desserts p {
+	color: white;
+	font-family: kaiTi;
+	padding: 3vh;
+	line-height: 5vh;
+}
+
+.specials {
+	height: 55vh;
+	background: #48260D;
+	color: white;
+	font-size: 3vh;
+	text-align: justify;
+}
+
+.specials h2 {
+	padding: 0 0 1vh 0;
+	font-size: 10vh;
+	font-family: 'Satisfy', cursive;
+}
+
+.specials p {
+	color: white;
+	font-family: kaiTi;
+	padding: 3vh;
+	line-height: 5vh;
+}
+
+.c {
+	padding: 1vh 2vh;
+	margin: 0 0 0 4vh;
+	color: white;
+	text-decoration: none;
+	transition: 0.6s ease;
+	font-family: kaiTi;
+	font-style: italic;
+	border: 0.5vh white solid;
+	font-size: 3vh;
+}
+
+.c:hover {
+	background: white;
+	color: black;
+}
+
+
+
+
+
+.main-footer {
+	background: black;
+}
+
+.grid3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 35vh;
+	padding: 5vh 10vh 20vh 10vh;
+	background-color: black;
+}
+
+.picture {
+	height: 50vh;
+	width: 55vh;
+	background-image: url(../Website/13.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.picture2 {
+	height: 50vh;
+	width: 55vh;
+	background-image: url(../Website/12.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 0 0 0 15vh;
+}
+
+.words h2 {
+	text-align: left;
+	color: white;
+	font-family: kaiTi;
+	font-size: 5vh;
+}
+
+.words h1 {
+	text-align: center;
+	color: white;
+	font-family: kaiTi;
+	padding: 2vh;
+	font-size: 7vh;
+}
+
+.words p {
+	text-align: justify;
+	color: white;
+	font-family: kaiTi;
+	padding: 5vh 0 0 0;
+	font-size: 3vh;
+}
+
+
+
+
+.footer {
+	background: black;
+	height: 11vh;
+	padding: 2vh 0 2vh 10vh;
+}
+
+.word h5 {
+	color: white;
+	text-align: left;
+	padding: 1vh;
+	font-family: kaiTi;
+	font-size: 3vh;
+}
