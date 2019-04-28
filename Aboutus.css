@@ -1,0 +1,223 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial black;
+}
+
+body {
+	background-color: black;
+}
+
+.main-header {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Website/19.jpg);
+	height: 70vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.menu {
+	max-width: 500vh;
+	margin: auto;
+}
+
+.logo img{
+	float: left;
+	width: 50vh;
+	height: auto;
+}
+
+.menu {
+	max-width: 500vh;
+	margin: auto;
+}
+
+.title {
+	position: absolute;
+	top: 35%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1 {
+	color: white;
+	font-size: 17.5vh;
+	font-family: century gothic;
+}
+
+.button {
+	position: absolute;
+	top: 49.5%;
+	left: 17%;
+	transform: translate(-50%,-50%);
+	font-size: 4vh;
+}
+
+.btn {
+	border: 0.3vh solid white;
+	padding: 2vh 6vh;
+	color: white;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover {
+	background: white;
+	color: black;
+}
+
+
+
+
+.showcase {
+	height: 265vh;
+	padding: 10vh 0 0 0;
+	background: black;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+}
+
+.grid h1 {
+	text-align: center;
+	color: white;
+	font-family: 'Satisfy', cursive;
+	font-size: 10vh;
+}
+
+.grid p {
+	font-family: kaiTi;
+	color: white;
+	padding: 10vh 40vh 10vh 40vh;
+	font-size: 4vh;
+	text-align: center;
+}
+
+
+
+
+
+.grid2 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	background-image: url(../Website/51.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 5vh 0 5vh 0;
+}
+
+.grid2 h1 {
+	text-align: center;
+	color: white;
+	font-family: 'Satisfy', cursive;
+	font-size: 10vh;
+}
+
+.grid2 h2 {
+	text-align: center;
+	color: white;
+	font-family: arial black;
+	font-size: 7vh;
+	padding: 0 0 3vh 0;
+}
+
+.grid2 p {
+	font-family: kaiTi;
+	color: white;
+	padding: 0 40vh 5vh 40vh;
+	font-size: 4vh;
+	text-align: justify;
+}
+
+
+
+
+
+.grid3 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	padding: 5vh 0 5vh 0;
+}
+
+.grid3 h1 {
+	text-align: center;
+	color: white;
+	font-family: 'Satisfy', cursive;
+	font-size: 10vh;
+}
+
+.grid3 h2 {
+	text-align: center;
+	color: white;
+	font-family: arial black;
+	font-size: 7vh;
+	padding: 0 0 3vh 0;
+}
+
+.grid3 p {
+	font-family: kaiTi;
+	color: white;
+	padding: 0 40vh 5vh 40vh;
+	font-size: 4vh;
+	text-align: justify;
+}
+
+
+
+
+
+.grid4 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Website/52.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 5vh 0 5vh 0;
+}
+
+.grid4 h1 {
+	text-align: center;
+	color: white;
+	font-family: 'Satisfy', cursive;
+	font-size: 10vh;
+}
+
+.grid4 h2 {
+	text-align: center;
+	color: white;
+	font-family: arial black;
+	font-size: 7vh;
+	padding: 0 0 3vh 0;
+}
+
+.grid4 p {
+	font-family: kaiTi;
+	color: white;
+	padding: 0 40vh 5vh 40vh;
+	font-size: 4vh;
+	text-align: left;
+}
+
+
+
+
+
+
+.footer {
+	background: white;
+	height: 10vh;
+	padding: 2vh 0 2vh 10vh;
+}
+
+.word h5 {
+	color: black;
+	text-align: left;
+	padding: 1vh;
+	font-family: kaiTi;
+	font-size: 3vh;
+}
